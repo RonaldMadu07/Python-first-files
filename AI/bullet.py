@@ -14,7 +14,7 @@ class Bullet(Sprite):
         self.rect.centerx = ship.rect.centerx
         self.rect.top = ship.rect.top
 
-        # Store the bullet's position as a decimal value.
+        # Store a decimal value for the bullet's position.
         self.y = float(self.rect.y)
 
         self.color = ai_settings.bullet_color
